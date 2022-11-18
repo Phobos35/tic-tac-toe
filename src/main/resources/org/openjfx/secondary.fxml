@@ -13,8 +13,8 @@
     </children>
     <children>
         <GridPane xmlns:fx="http://javafx.com/fxml"
-                  prefHeight="200" prefWidth="320"
-                  alignment="center" hgap="20" vgap="20">
+                  prefHeight="400" prefWidth="320"
+                  alignment="center" hgap="15" vgap="15">
             <Button fx:id="top_left" text="-" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
             <Button fx:id="top_center" text="-" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
             <Button fx:id="top_right" text="-" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
