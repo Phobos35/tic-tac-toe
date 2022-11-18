@@ -41,13 +41,13 @@ public class App extends Application {
         root.add(button8, 1, 2, 1, 1);
         root.add(button9, 2, 2, 1, 1);
         Scene scene = new Scene(root, 80, 75);
-        stage.setScene(scene);
-        stage.show();
-
-        //scene = new Scene(loadFXML("primary"));
-        //scene.getStylesheets().add(App.class.getResource("styles.css").toExternalForm());
         //stage.setScene(scene);
         //stage.show();
+
+        scene = new Scene(loadFXML("primary"));
+        scene.getStylesheets().add(App.class.getResource("styles.css").toExternalForm());
+        stage.setScene(scene);
+        stage.show();
     }
 
     static void setRoot(String fxml) throws IOException {

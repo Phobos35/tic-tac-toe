@@ -13,7 +13,7 @@
    </children>
    <children>
 
-      <!--<Label text="Primary View" />-->
+      <Label text="Primary View" />
 
 
       <Button fx:id="primaryButton" text="Start the Game" onAction="#switchToSecondary"/>
