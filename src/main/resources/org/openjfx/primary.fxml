@@ -12,10 +12,7 @@
       <Button fx:id="searchIP" text="send IP"/>
    </children>
    <children>
-
       <Label text="Primary View" />
-
-
       <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
    </children>
 
