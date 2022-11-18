@@ -8,16 +8,16 @@ import javax.swing.*;
 
 public class PrimaryController {
    @FXML public TextField ipAddress;
-   @FXML public String Address;
+   @FXML public String address;
 
     @FXML
     private void sendIPAddress() throws IOException {
-            Address = String.valueOf(ipAddress.getCharacters()); //this line store the incoming ip address in the variable call Address
+            address= String.valueOf(ipAddress.getCharacters()); //this line store the incoming ip address in the variable call Address
             // System.out.println(Address);
             //System.out.println(ipAddress.getCharacters());
 
         System.out.println(ipAddress.getCharacters());
-        MyClient client=new MyClient(Address.toString());
+        MyClient client=new MyClient(address.toString());
 
     }
     @FXML
