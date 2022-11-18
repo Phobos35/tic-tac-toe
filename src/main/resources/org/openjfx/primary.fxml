@@ -8,15 +8,15 @@
 <?import javafx.scene.control.TextField?>
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.PrimaryController">
    <children>
-      <TextField text="IP Adress?"/>
-      <Button fx:id="searchIP" text="send IP"/>
+      <TextField fx:id ="ipAddress" text="IP Address?"/>
+      <Button fx:id="searchIP" text="send IP address" onAction="#sendIPAddress" />
    </children>
    <children>
 
-      <Label text="Primary View" />
+      <!--<Label text="Primary View" />-->
 
 
-      <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
+      <Button fx:id="primaryButton" text="Start the Game" onAction="#switchToSecondary"/>
    </children>
 
    <padding>
