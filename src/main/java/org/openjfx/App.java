@@ -19,15 +19,15 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        Button button1 = new Button("X");
-        Button button2 = new Button("0");
-        Button button3 = new Button("X");
-        Button button4 = new Button("0");
-        Button button5 = new Button("X");
-        Button button6 = new Button("0");
-        Button button7 = new Button("X");
-        Button button8 = new Button("0");
-        Button button9 = new Button("X");
+        Button button1 = new Button("_");
+        Button button2 = new Button("_");
+        Button button3 = new Button("_");
+        Button button4 = new Button("_");
+        Button button5 = new Button("_");
+        Button button6 = new Button("_");
+        Button button7 = new Button("_");
+        Button button8 = new Button("_");
+        Button button9 = new Button("_");
 
         GridPane root = new GridPane();
 
@@ -40,14 +40,14 @@ public class App extends Application {
         root.add(button7, 0, 2, 1, 1);
         root.add(button8, 1, 2, 1, 1);
         root.add(button9, 2, 2, 1, 1);
-        Scene scene = new Scene(root, 80, 75);
-        stage.setScene(scene);
-        stage.show();
-
-        //scene = new Scene(loadFXML("primary"));
-        //scene.getStylesheets().add(App.class.getResource("styles.css").toExternalForm());
+        //Scene scene = new Scene(root, 80, 75);
         //stage.setScene(scene);
         //stage.show();
+
+        scene = new Scene(loadFXML("primary"));
+        scene.getStylesheets().add(App.class.getResource("styles.css").toExternalForm());
+        stage.setScene(scene);
+        stage.show();
     }
 
     static void setRoot(String fxml) throws IOException {
