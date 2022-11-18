@@ -10,9 +10,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-/**
- * JavaFX App
- */
+
 public class App extends Application {
 
     private static Scene scene;
@@ -40,7 +38,7 @@ public class App extends Application {
         root.add(button7, 0, 2, 1, 1);
         root.add(button8, 1, 2, 1, 1);
         root.add(button9, 2, 2, 1, 1);
-        Scene scene = new Scene(root, 80, 75);
+        //Scene scene = new Scene(root, 80, 75);
         //stage.setScene(scene);
         //stage.show();
 
