@@ -17,7 +17,7 @@ public class PrimaryController {
             //System.out.println(ipAddress.getCharacters());
 
         System.out.println(ipAddress.getCharacters());
-        MyClient client=new MyClient(ipAddress.getCharacters().toString());
+        MyClient client=new MyClient(Address.toString());
 
     }
     @FXML

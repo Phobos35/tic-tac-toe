@@ -12,7 +12,7 @@ public class MyClient {
             //cl=new MyClient(ip);
             Socket s = new Socket(ip, 6666);
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
-            dout.writeUTF("0.8");
+            dout.writeUTF("Ready");
             dout.flush();
             dout.close();
             s.close();
