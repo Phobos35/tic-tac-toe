@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hellofx" />
+        <module name="tic-tac-toe" />
       </profile>
     </annotationProcessing>
   </component>
