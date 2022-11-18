@@ -12,14 +12,9 @@ public class PrimaryController {
 
     @FXML
     private void sendIPAddress() throws IOException {
-        try {
-            Address = String.valueOf(ipAddress.getCharacters());
-            System.out.println(Address);
+            Address = String.valueOf(ipAddress.getCharacters()); //this line store the incoming ip address in the variable call Address
+            // System.out.println(Address);
             //System.out.println(ipAddress.getCharacters());
-        }
-        catch (Exception e) {
-           System.err.println(e);
-        }
     }
     @FXML
     private void switchToSecondary() throws IOException {
